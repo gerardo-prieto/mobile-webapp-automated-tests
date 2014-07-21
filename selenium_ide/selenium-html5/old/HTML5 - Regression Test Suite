@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="PostAnonymous">POST - Post Anonymous</a></td></tr>
+<tr><td><a href="PostLoggedIn">POST - Logged In</a></td></tr>
+<tr><td><a href="Login - Valid login">LOGIN - Log in with valid user</a></td></tr>
+<tr><td><a href="Logout - Valid logout">LOGOUT - Logout with valid user</a></td></tr>
+<tr><td><a href="LOCATION - Select City">LOCATION - Select city</a></td></tr>
+<tr><td><a href="LOCATION - Change City">LOCATION - Change City</a></td></tr>
+<tr><td><a href="SEARCH - Search an Ad">SEARCH - Search a global Ad</a></td></tr>
+<tr><td><a href="SEARCH - Open a searched Ad">SEARCH - Logged In - Open a searched Ad</a></td></tr>
+<tr><td><a href="ITEM PAGE - Reply an Ad">ITEM PAGE - Reply an Ad</a></td></tr>
+<tr><td><a href="ITEM PAGE - Add to Favorites">ITEM PAGE - Add/Remove to Favorites</a></td></tr>
+<tr><td><a href="MYOLX - Open Ad from MyAds">MYOLX - Go to My Ads</a></td></tr>
+<tr><td><a href="MYOLX - Go to My Favs">MYOLX - Go to My Favs</a></td></tr>
+<tr><td><a href="REGISTER - Registrate new user">REGISTER - Registrate new user</a></td></tr>
+</tbody></table>
+</body>
+</html>
