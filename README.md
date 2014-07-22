@@ -18,7 +18,17 @@ Run tests!
 1) Open Selenium IDE<br>
 2) Go to File -> Open Test Suite<br>
 3) Open "Regression Test Suite" file placed in each specific directory (selenium_wap, selenium_html4 or selenium_html5)<br>
+4) Ensure that <b>forXml</b> file path is OK on your system<br>
 4) Click on PLAY<br>
 
 
 - More information and tricks -> http://docs.seleniumhq.org/docs/02_selenium_ide.jsp
+
+<b>
+Multiple countries execution
+</b>
+
+1) Open testData.xml<br>
+2) Uncomment or add countries that you'd like to include into Selenium tests execution<br>
+3) Save it<br>
+4) Run tests again!<br>
