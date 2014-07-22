@@ -32,3 +32,11 @@ Multiple countries execution
 2) Uncomment or add countries that you'd like to include into Selenium tests execution<br>
 3) Save it<br>
 4) Run tests again!<br>
+
+
+<b>
+How to run tests in Dev environment
+</b>
+
+1) Open testData.xml<br>
+2) Make a find & replace changing baseURL with the right parameters of dev machine<br>
