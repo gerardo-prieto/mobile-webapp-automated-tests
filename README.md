@@ -39,4 +39,9 @@ How to run tests in Dev environment
 </b>
 
 1) Open testData.xml<br>
-2) Make a find & replace changing baseURL with the right parameters of dev machine<br>
+2) Make a find & replace changing baseURL with the right parameters of dev machine
+
+<u>Example</u>:
+
+Find: " /> <br>
+Replace: :3030" /> <br>
