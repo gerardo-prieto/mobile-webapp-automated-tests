@@ -162,6 +162,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForElementPresent</td>
+	<td>//a[contains(@href,'testing-iid')]</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>//a[contains(@href,'testing-iid')]</td>
 	<td></td>
