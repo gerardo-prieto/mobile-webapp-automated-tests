@@ -58,22 +58,22 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//table[@class='locations_select_view']/tbody/tr/td/h3/small/small/a</td>
+	<td>//table[@class='locations_select_view']//a[1]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//table[@class='locations_list_view']/tbody/tr/td/table/tbody/tr/td/a[1]</td>
+	<td>//table[@class='locations_list_view']//tbody/tr[1]/td/a</td>
 	<td></td>
 </tr>
 <tr>
 	<td>waitForElementPresent</td>
-	<td>//a[contains(@href,'location?location=')]</td>
+	<td>//a[contains(@href,'location?location')]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//a[contains(@href,'location?location=')]</td>
+	<td>//a[contains(@href,'location?location')]</td>
 	<td></td>
 </tr>
 <tr>
