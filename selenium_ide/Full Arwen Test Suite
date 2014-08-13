@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="selenium-wap/ITEM PAGE - Reply an Ad">WAP - ITEM PAGE - Reply an Ad</a></td></tr>
+<tr><td><a href="selenium-wap/LOCATION - Change City">WAP - LOCATION - Change City</a></td></tr>
+<tr><td><a href="selenium-wap/LOCATION - Select City">WAP - LOCATION - Select City</a></td></tr>
+<tr><td><a href="selenium-wap/PostAnonymous">WAP - POST - Anonymous</a></td></tr>
+<tr><td><a href="selenium-wap/SEARCH - Open a searched Ad">WAP - SEARCH - Open a searched Ad</a></td></tr>
+<tr><td><a href="selenium-wap/SEARCH - Search an Ad">WAP - SEARCH - Search an Ad</a></td></tr>
+<tr><td><a href="selenium-html4/ITEM PAGE - Add to Favorites">HTML4 - ITEM PAGE - Add to Favorites</a></td></tr>
+<tr><td><a href="selenium-html4/ITEM PAGE - Reply an Ad">HTML4 - ITEM PAGE - Reply an Ad</a></td></tr>
+<tr><td><a href="selenium-html4/LOCATION - Change City">HTML4 - LOCATION - Change City</a></td></tr>
+<tr><td><a href="selenium-html4/LOCATION - Select City">HTML4 - LOCATION - Select City</a></td></tr>
+<tr><td><a href="selenium-html4/Login - Valid login">HTML4 - Login - Valid login</a></td></tr>
+<tr><td><a href="selenium-html4/Logout - Valid logout">HTML4 - Logout - Valid logout</a></td></tr>
+<tr><td><a href="selenium-html4/MYOLX - Go to My Favs">HTML4 - MYOLX - Go to My Favs</a></td></tr>
+<tr><td><a href="selenium-html4/MYOLX - Open Ad from MyAds">HTML4 - MYOLX - Open Ad from MyAds</a></td></tr>
+<tr><td><a href="selenium-html4/PostAnonymous">HTML4 - POST - Anonymous</a></td></tr>
+<tr><td><a href="selenium-html4/PostLoggedIn">HTML4 - POST - Logged In</a></td></tr>
+<tr><td><a href="selenium-html4/REGISTER - Registrate new user">HTML4 - REGISTER - Registrate new user</a></td></tr>
+<tr><td><a href="selenium-html4/SEARCH - Open a searched Ad">HTML4 - SEARCH - Open a searched Ad</a></td></tr>
+<tr><td><a href="selenium-html4/SEARCH - Search an Ad">HTML4 - SEARCH - Search an Ad</a></td></tr>
+<tr><td><a href="selenium-html5/ITEM PAGE - Add to Favorites">HTML5 - ITEM PAGE - Add to Favorites</a></td></tr>
+<tr><td><a href="selenium-html5/ITEM PAGE - Reply an Ad">HTML5 - ITEM PAGE - Reply an Ad</a></td></tr>
+<tr><td><a href="selenium-html5/LOCATION - Change City">HTML5 - LOCATION - Change City</a></td></tr>
+<tr><td><a href="selenium-html5/LOCATION - Select City">HTML5 - LOCATION - Select City</a></td></tr>
+<tr><td><a href="selenium-html5/Login - Valid login">HTML5 - LOGIN - Valid login</a></td></tr>
+<tr><td><a href="selenium-html5/Logout - Valid logout">HTML5 - LOGOUT - Valid logout</a></td></tr>
+<tr><td><a href="selenium-html5/MYOLX - Go to My Favs">HTML5 - MYOLX - Go to My Favs</a></td></tr>
+<tr><td><a href="selenium-html5/MYOLX - Open Ad from MyAds">HTML5 - MYOLX - Open Ad from MyAds</a></td></tr>
+<tr><td><a href="selenium-html5/PostAnonymous">HTML5 - POST - Anonymous</a></td></tr>
+<tr><td><a href="selenium-html5/PostLoggedIn">HTML5 - POST - Logged In</a></td></tr>
+<tr><td><a href="selenium-html5/REGISTER - Registrate new user">HTML5 - REGISTER - Registrate new user</a></td></tr>
+<tr><td><a href="selenium-html5/SEARCH - Open a searched Ad">HTML5 - SEARCH - Open a searched Ad</a></td></tr>
+<tr><td><a href="selenium-html5/SEARCH - Search an Ad">HTML5 - SEARCH - Search an Ad</a></td></tr>
+</tbody></table>
+</body>
+</html>
