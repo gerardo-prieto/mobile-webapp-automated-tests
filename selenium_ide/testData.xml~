@@ -1,6 +1,6 @@
 <testdata>
-	<vars country="http://m.olx.com.py" /> 
-<!--	<vars country="http://m.olx.com.co" />
+<!--	<vars country="http://m.olx.com.py" /> 
+	<vars country="http://m.olx.com.co" />
 	<vars country="http://m.olx.com.ar" />
 	<vars country="http://m.olx.com.pk" />
 	<vars country="http://m.olx.com.bd" />

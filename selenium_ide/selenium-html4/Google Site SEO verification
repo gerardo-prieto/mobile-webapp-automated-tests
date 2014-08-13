@@ -3,17 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<link rel="selenium.base" href="http://html4.m.olx.com.py/" />
-<title>LOCATION - Select city</title>
+<link rel="selenium.base" href="http://wap.m.olx.com.py/" />
+<title>Google Site Verification</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">LOCATION - Select city</td></tr>
+<tr><td rowspan="1" colspan="3">Google Site Verification</td></tr>
 </thead><tbody>
 <tr>
 	<td>forXml</td>
-	<td>file:///home/dev/workspace/mobile-webapp-automated-tests/selenium_ide/testData.xml</td>
+	<td>file:///home/dev/workspace/mobile-webapp-automated-tests/selenium_ide/testDataGoogle.xml</td>
 	<td></td>
 </tr>
 <tr>
@@ -43,7 +43,7 @@
 </tr>
 <tr>
 	<td>createCookie</td>
-	<td>forcedPlatform=html5</td>
+	<td>forcedPlatform=html4</td>
 	<td>path=/</td>
 </tr>
 <tr>
@@ -53,32 +53,22 @@
 </tr>
 <tr>
 	<td>open</td>
-	<td>${country}/?location=&amp;language=en-US</td>
+	<td>${country}/force/html4</td>
 	<td></td>
 </tr>
 <tr>
-	<td>clickAndWait</td>
-	<td>//header[@id='location']//a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForElementPresent</td>
-	<td>//a[@class='city-link']</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>//a[@class='city-link']</td>
+	<td>waitForPageToLoad</td>
+	<td>30000</td>
 	<td></td>
 </tr>
 <tr>
 	<td>waitForElementPresent</td>
-	<td>//a[contains(@href,'location?location=')]</td>
+	<td>//meta[@content='${content}'][@name='google-site-verification']</td>
 	<td></td>
 </tr>
 <tr>
 	<td>assertElementPresent</td>
-	<td>//a[contains(@href,'location?location=')]</td>
+	<td>//meta[@content='${content}'][@name='google-site-verification']</td>
 	<td></td>
 </tr>
 <tr>

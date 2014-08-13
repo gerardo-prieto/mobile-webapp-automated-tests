@@ -58,7 +58,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//table[@class='locations_select_view']/tbody/tr/td/h1/small/small/a</td>
+	<td>//table[@class='locations_select_view']/tbody/tr/td/h3/small/small/a</td>
 	<td></td>
 </tr>
 <tr>
@@ -83,7 +83,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//table[@class='locations_select_view']/tbody/tr/td/h1/small/small/a</td>
+	<td>//table[@class='locations_select_view']/tbody/tr/td/h3/small/small/a</td>
 	<td></td>
 </tr>
 <tr>

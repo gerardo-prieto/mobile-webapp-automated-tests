@@ -18,8 +18,8 @@
 </tr>
 <tr>
 	<td>setTimeout</td>
-	<td>10000</td>
-	<td>10000</td>
+	<td>30000</td>
+	<td>30000</td>
 </tr>
 <tr>
 	<td>deleteAllVisibleCookies</td>

@@ -18,8 +18,8 @@
 </tr>
 <tr>
 	<td>setTimeout</td>
-	<td>10000</td>
-	<td>10000</td>
+	<td>30000</td>
+	<td>30000</td>
 </tr>
 <tr>
 	<td>deleteAllVisibleCookies</td>
@@ -84,11 +84,6 @@
 <tr>
 	<td>click</td>
 	<td>//a[contains(@href,'myadslisting')]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForPageToLoad</td>
-	<td>7000</td>
 	<td></td>
 </tr>
 <tr>

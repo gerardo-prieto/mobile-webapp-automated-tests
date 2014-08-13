@@ -68,12 +68,12 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=regexp:Vehic.*</td>
+	<td>//table[@class='post_categories_view']//tr[1]/td/a[1]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>link=regexp:Ca.*</td>
+	<td>//table[@class='post_subcategories_view']//tr[1]/td/a</td>
 	<td></td>
 </tr>
 <tr>
@@ -107,11 +107,6 @@
 	<td>robot_test@olx.com</td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=text-priceC</td>
-	<td>1000</td>
-</tr>
-<tr>
 	<td>clickAndWait</td>
 	<td>//input[@type='submit' and string-length(@name)=0]</td>
 	<td></td>
@@ -124,26 +119,6 @@
 <tr>
 	<td>assertElementPresent</td>
 	<td>class=post_success_view</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>//a[contains(@href,'testing-iid')]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForElementPresent</td>
-	<td>class=items_show_view</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertText</td>
-	<td>//table[@class='items_show_view'][contains(*,'Title for testing')]</td>
-	<td>regexp:.*Title for testing.*</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>class=itemDescription</td>
 	<td></td>
 </tr>
 <tr>

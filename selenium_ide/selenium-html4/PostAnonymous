@@ -57,6 +57,11 @@
 	<td></td>
 </tr>
 <tr>
+	<td>waitForElementPresent</td>
+	<td>class=post</td>
+	<td></td>
+</tr>
+<tr>
 	<td>clickAndWait</td>
 	<td>class=post</td>
 	<td></td>
@@ -95,6 +100,11 @@
 	<td>type</td>
 	<td>id=text-description</td>
 	<td>Description for testing</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text-contactName</td>
+	<td>Mark</td>
 </tr>
 <tr>
 	<td>type</td>

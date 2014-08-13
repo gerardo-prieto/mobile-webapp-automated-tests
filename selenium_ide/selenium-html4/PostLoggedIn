@@ -123,6 +123,11 @@
 </tr>
 <tr>
 	<td>type</td>
+	<td>id=text-contactName</td>
+	<td>Mark</td>
+</tr>
+<tr>
+	<td>type</td>
 	<td>id=text-email</td>
 	<td>robot_testing@olx.com</td>
 </tr>
@@ -139,31 +144,6 @@
 <tr>
 	<td>verifyElementPresent</td>
 	<td>class=post_success_view</td>
-	<td></td>
-</tr>
-<tr>
-	<td>clickAndWait</td>
-	<td>//a[contains(@href,'testing-iid')]</td>
-	<td></td>
-</tr>
-<tr>
-	<td>waitForElementPresent</td>
-	<td>class=items_show_view</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>//*[text()='Title for testing']</td>
-	<td>regexp:.*Title for testing.*</td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>id=itemPage</td>
-	<td></td>
-</tr>
-<tr>
-	<td>assertElementPresent</td>
-	<td>class=items_show_view</td>
 	<td></td>
 </tr>
 <tr>
