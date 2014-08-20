@@ -6,22 +6,28 @@ var expect = chai.expect;
 
 var webdriver = require('../node_modules/selenium-webdriver'),
     test = require('../node_modules/selenium-webdriver/testing'),
-    remote = require('../node_modules/selenium-webdriver/remote');
+    remote = require('../node_modules/selenium-webdriver/remote'),
+    SeleniumServer = require('../node_modules/selenium-webdriver/remote').SeleniumServer;
 
 var baseURL = 'http://html5.m-testing.olx.com/';
 
+var server = new SeleniumServer("../libs/selenium-server-standalone.jar", {
+  port: 4445
+});
+    server.start();
 
 test.describe('ARWEN Test Suite', function() {
   var driver;
 
   var capabilities = {
     'browserName' : 'headless', 
-    'logLevel': 'silent',
+//    'logLevel': 'silent',
   }
 
 
   test.before(function() {
-    driver = new webdriver.Builder().   
+    driver = new webdriver.Builder(). 
+    usingServer(server.address()).  
     withCapabilities(capabilities). 
     build();
     driver.manage().timeouts().implicitlyWait(30000, 1000);
