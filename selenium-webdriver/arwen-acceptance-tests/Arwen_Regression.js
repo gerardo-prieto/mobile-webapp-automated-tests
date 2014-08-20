@@ -12,15 +12,16 @@ var webdriver = require('../node_modules/selenium-webdriver'),
 var baseURL = 'http://html5.m-testing.olx.com/';
 
 var server = new SeleniumServer("../libs/selenium-server-standalone.jar", {
-  port: 4445
+  port: 7444
 });
     server.start();
+
 
 test.describe('ARWEN Test Suite', function() {
   var driver;
 
   var capabilities = {
-    'browserName' : 'headless', 
+    'browserName' : 'phantomjs', 
 //    'logLevel': 'silent',
   }
 
