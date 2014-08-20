@@ -108,7 +108,7 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//li//a[contains(@href,'iid')][1]</td>
+	<td>css=a[data-qa=list-item]:first-child</td>
 	<td></td>
 </tr>
 <tr>
