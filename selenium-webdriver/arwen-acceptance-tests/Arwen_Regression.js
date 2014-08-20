@@ -8,14 +8,14 @@ var webdriver = require('../node_modules/selenium-webdriver'),
     test = require('../node_modules/selenium-webdriver/testing'),
     remote = require('../node_modules/selenium-webdriver/remote');
 
-var baseURL = 'http://m.olx.com.py:3030';
+var baseURL = 'http://html5.m-testing.olx.com/';
 
 
 test.describe('ARWEN Test Suite', function() {
   var driver;
 
   var capabilities = {
-    'browserName' : 'opera', 
+    'browserName' : 'headless', 
     'logLevel': 'silent',
   }
 
@@ -32,7 +32,7 @@ test.describe('ARWEN Test Suite', function() {
  
 
 test.it('SEARCH - Search and open an Ad', function() {
-    driver.get('http://m.olx.com.py:3030');
+    driver.get(baseURL);
     driver.manage().addCookie('forcedPlatform', 'html4');
     driver.navigate().refresh(); 
     driver.findElement(webdriver.By.css("[data-qa=search-input]")).clear();
@@ -40,8 +40,8 @@ test.it('SEARCH - Search and open an Ad', function() {
     driver.findElement(webdriver.By.css("[data-qa=search-submit]")).click();
     driver.findElement(webdriver.By.css("[data-qa=list-item]:first-child")).click();
     driver.wait(function() {
-      return driver.findElement(webdriver.By.css("[data-qa]=item")).then(function(res) {
-        return driver.findElement(webdriver.By.css("[data-qa]=item"));
+      return driver.findElement(webdriver.By.css("[data-qa=item]")).then(function(res) {
+        return driver.findElement(webdriver.By.css("[data-qa='item']"));
       });
     }, 8000);
   });
