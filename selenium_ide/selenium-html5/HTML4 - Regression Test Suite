@@ -9,6 +9,7 @@
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
 <tr><td><a href="PostAnonymous">POST - Post Anonymous</a></td></tr>
+<tr><td><a href="../../../../selenium-ww/selenium-html5/POST with price">POST - Post with price</a></td></tr>
 <tr><td><a href="PostLoggedIn">POST - Logged In</a></td></tr>
 <tr><td><a href="Login - Valid login">LOGIN - Log in with valid user</a></td></tr>
 <tr><td><a href="Logout - Valid logout">LOGOUT - Logout with valid user</a></td></tr>

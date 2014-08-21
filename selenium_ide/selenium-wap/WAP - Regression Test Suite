@@ -8,7 +8,8 @@
 <body>
 <table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
 <tr><td><b>Test Suite</b></td></tr>
-<tr><td><a href="PostAnonymous">POST - Post Anonymous</a></td></tr>
+<tr><td><a href="PostAnonymous">POST - Post Anonymous - With price</a></td></tr>
+<tr><td><a href="../../../../selenium-ww/selenium-wap/PostAnonymous - Without price">POST - Post Anonymous without Price</a></td></tr>
 <tr><td><a href="LOCATION - Select City">LOCATION - Select city</a></td></tr>
 <tr><td><a href="LOCATION - Change City">LOCATION - Change City</a></td></tr>
 <tr><td><a href="SEARCH - Search an Ad">SEARCH - Search a global Ad</a></td></tr>

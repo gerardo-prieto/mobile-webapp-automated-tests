@@ -68,12 +68,12 @@
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//table[@class='post_categories_view']//tr[1]/td/a[1]</td>
+	<td>//table[@class='post_categories_view']//tr[7]/td/a[1]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>clickAndWait</td>
-	<td>//table[@class='post_subcategories_view']//tr[1]/td/a</td>
+	<td>//table[@class='post_subcategories_view']//tr[7]/td/a</td>
 	<td></td>
 </tr>
 <tr>
@@ -95,6 +95,16 @@
 	<td>type</td>
 	<td>id=text-description</td>
 	<td>Description for testing</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text-priceC</td>
+	<td>12312</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=text-contactName</td>
+	<td>John</td>
 </tr>
 <tr>
 	<td>type</td>
